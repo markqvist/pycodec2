@@ -21,7 +21,8 @@ ext_modules = [
         # Not including this line, will cause an error upon using pycodec2:
         # > ImportError: dlopen(/Users/grzesiek/Code/pycodec2-202310/build/lib.macosx-13.3-arm64-cpython-311/pycodec2.cpython-311-darwin.so, 0x0002):
         # > symbol not found in flat namespace '_codec2_700c_eq'
-        libraries=["codec2"])
+        # libraries=["codec2"]
+        )
 ]
 
 setup(
