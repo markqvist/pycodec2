@@ -29,7 +29,17 @@
 #ifndef __CODEC2__
 #define  __CODEC2__
 
-#include <codec2/version.h>
+//this functions both as an include guard and your typical HAVE macro
+#ifndef CODEC2_HAVE_VERSION
+#define CODEC2_HAVE_VERSION
+
+#define CODEC2_VERSION_MAJOR 1
+#define CODEC2_VERSION_MINOR 2
+/* #undef CODEC2_VERSION_PATCH */
+#define CODEC2_VERSION "1.2.0"
+
+#endif //CODEC2_HAVE_VERSION
+
 
 #ifdef __cplusplus
   extern "C" {
