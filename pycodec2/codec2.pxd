@@ -1,6 +1,6 @@
 # Synced with
 # https://github.com/drowe67/codec2/commits/25014a290752fb830390ff24a612a9694319a47a/src/codec2.h
-cdef extern from 'codec2/codec2.h':
+cdef extern from 'codec2.h':
   cdef enum:
     CODEC2_MODE_3200 = 0
     CODEC2_MODE_2400 = 1
